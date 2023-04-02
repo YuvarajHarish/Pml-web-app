@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Loan Prediction Model</title>
+  </head>
+  <body>
+    <h1>Loan Prediction Model</h1>
+    {% if prediction_text %}
+    <h2>{{ prediction_text }}</h2>
+    {% endif %}
+    <br>
+    <a href="{{ url_for('home') }}">Go back to the homepage</a>
+  </body>
+</html>
